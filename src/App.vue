@@ -2,7 +2,7 @@
   <div id="app">
     <h1>Todo application</h1>
     <hr />
-    <TodoList v-bind:todos="todos" />
+    <TodoList :todos="todos" />
   </div>
 </template>
 
