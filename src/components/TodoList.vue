@@ -1,8 +1,10 @@
 <template>
   <div>
     <ul>
-      <TodoItem v-for="(todo, index) in todos" :key="index" :todo="todo"
-      v-on:remove-todo="removeTodo"
+      <TodoItem v-for="(todo, index) in todos"
+                :key="index"
+                :todo="todo"
+                v-on:remove-todo="removeTodo"
       />
     </ul>
   </div>
